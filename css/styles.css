@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.mercado-libre{
+    background-image: url(../assets/mercadolibre_integration-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: 500px;
+}
+
+
+
+.btn-link{
+        font-size: 13px;
+        font-weight:600;
+        color:black;
+        background-color: antiquewhite;
+        border: none;
+        width: 140px;
+        height: 30px;
+        gap: 1.5rem;
+        cursor: pointer;
+        border-radius: 40px;
+        box-shadow: 0px 0px 10px 0px antiquewhite;
+        margin-top: 20px;
+}
+
+.btn-link:hover{
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1, 2.05s);
+}
+
+.boton1, .boton2 ,
+.boton3, .boton4{
+    margin-top: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
+    align-content: end;
+}
+
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    justify-content: center;
+    height: 190px;   
+    margin: 700px auto 0px;
+    justify-content: center;
+    text-align: center;
+    background-color: yellow;
+    padding: 5px;
+    gap: 1rem;
+    border-radius: 25px;
+}
+
+
+
+.letrero-principal{
+    width: 700px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:antiquewhite;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+}
+
+.letrero-principal h3{
+    text-align: center;
+    padding: 2rem;
+}
+
+.letrero-principal p{
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+/* Generales */
+.disable{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
+
+
+/* Footer */
+
+.contenedor{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-footer{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 350%;
+    left: 70%;
+    font-size: 13px;
+    font-weight:600;
+    color:black;
+    background-color: antiquewhite;
+    border: none;
+    width: 140px;
+    height: 30px;
+    gap: 1.5rem;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px antiquewhite;
+}
+
+.btn-footer:hover{
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1, 2.05s);
+}
+
+.btn-wikipedia{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 350%;
+    left: 30%;
+        font-size: 13px;
+    font-weight:600;
+    color:black;
+    background-color: antiquewhite;
+    border: none;
+    width: 140px;
+    height: 30px;
+    gap: 1.5rem;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px antiquewhite;
+}
+
+.btn-wikipedia:hover{
+    box-shadow: none;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1, 2.05s);
+}
+
+/* iconos */
+i{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 29px;
+    cursor: pointer;
+    width: auto;
+}
